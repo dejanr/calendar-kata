@@ -1,4 +1,4 @@
-# Calendar Puzzle Kata
+# Calendar Kata
 
 This kata is a calendar rendering problem. The input is a list of
 events and the output is a calendar display similar to Google Calendar.
