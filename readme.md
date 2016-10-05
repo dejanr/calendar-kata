@@ -1,6 +1,6 @@
 # Calendar Puzzle Kata
 
-This puzzle is a calendar rendering problem. The input is a list of
+This kata is a calendar rendering problem. The input is a list of
 events and the output is a calendar display similar to Google Calendar.
 
 *Part 1*
@@ -20,10 +20,11 @@ The objects should be laid out so that they do not visually overlap.
 If there is only one event at a given time slot, its width should be maximum width.
 If there are multiple events not visually overlaping they should be one bellow another one.
 
-There are 2 major constraints:
+There are 3 major constraints:
 
     Every colliding event must be the same width as every other event that it collides width.
     An event should use the maximum width possible while still adhering to the first constraint.
+    All colliding events should be sorted by duration, so column with max duration is on the left.
 
 Given events A B C and D, they should be layed out as:
 
