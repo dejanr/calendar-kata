@@ -24,7 +24,6 @@ There are 3 major constraints:
 
     Every colliding event must be the same width as every other event that it collides width.
     An event should use the maximum width possible while still adhering to the first constraint.
-    All colliding events should be sorted by duration, so column with max duration is on the left.
 
 Given events A B C and D, they should be layed out as:
 
